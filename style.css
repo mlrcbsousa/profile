@@ -37,29 +37,22 @@ a {
 }
 
 a:hover {
-  color: #1B2A41;
+  color: #9AA0A8;
 }
 
 
 .container {
-  width: 640px;   /* This sets the width */
-  margin: 0 auto; /* This automatically sets left/right margins */
+  width: auto;   /* This sets the width */
+  margin: 20 auto; /* This automatically sets left/right margins */
 }
 
 .card {
   padding: 20px;
-  margin: 8px 20px;
+  margin: 15px 20px;
   border-radius: 4px;
   box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
   background-color: #CFDBD5;
   width: auto;   /* This sets the width */
-}
-
-#profile-img {
-  width: 150px;
-  border: 2px;
-  border-radius: 50%;
-  box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
 }
 
 .cities-table img {
@@ -91,23 +84,46 @@ a:hover {
 
 .btn-blue:hover {
   color: white;
-  background-color: #1B2A41;
+  background-color: #9AA0A8;
+}
+
+#profile-img {
+  width: 150px;
+  border: 2px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
 }
 
 #social-links {
   font-size: 30px
 }
 
+#page-content {
+  margin-left: 100px;
+}
+
 #sidebar {
+  background-color: #1B2A41;
   position: fixed;
-  width: 300px;
+  font-size: 30px;
+  width: 100px;
   left: 0;
   top: 0;
   bottom: 0;
 }
-#page-content {
-  margin-left: 300px;
+
+#sidebar ul {
+  padding-left: 0px;
+  margin: 10px 10px;
 }
+
+#sidebar li {
+  list-style: none;
+  padding: 20px 20px;
+}
+
+
+/* media queries */
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
